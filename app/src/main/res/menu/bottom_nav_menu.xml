@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_chip_screen"
+        android:icon="@drawable/orders"
+        android:title="Orders"/>
+    <item
+        android:id="@+id/nav_empty_screen"
+        android:icon="@drawable/chart_histogram"
+        android:title="statistics"/>
+</menu>

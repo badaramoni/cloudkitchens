@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">cloudkitchens</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="order_number">Order #%1$s</string>
+    <string name="delivery_info">Delivery - %1$s</string>
+    <string name="order_price">price</string>
+        <string-array name="tab_names">
+            <item>All</item>
+            <item>HOT</item>
+            <item>COLD</item>
+            <item>FROZEN</item>
+            <item>OVERFLOW</item>
+        </string-array>
+    <string-array name="shelf_types">
+            <item>All</item>
+            <item>HOT</item>
+            <item>COLD</item>
+            <item>FROZEN</item>
+            <item>OVERFLOW</item>
+    </string-array>
+
+</resources>

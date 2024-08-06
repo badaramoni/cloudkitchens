@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.features.orderdetails.OrderDetailFragment">
+
+    <TextView
+        android:id="@+id/order_number_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Order #XXXX"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/customer_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/order_number_text_view"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Customer Name"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/destination_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customer_text_view"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Destination"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/item_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/destination_text_view"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Item"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_text_view"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Price"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/state_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price_text_view"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="State"
+        android:textSize="16sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/movement_log_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/state_text_view"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+</RelativeLayout>

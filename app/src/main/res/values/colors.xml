@@ -1,0 +1,7 @@
+<resources>
+    <color name="primaryColor">#2A3F3A</color> <!-- R:42 G:63 B:58 -->
+    <color name="primaryLightColor">#E4E2D5</color> <!-- R:228 G:226 B:213 -->
+    <color name="backgroundColor">#F2F0E4</color> <!-- R:242 G:240 B:228 -->
+    <color name="textColorPrimary">#2A3F3A</color>
+    <color name="textColorSecondary">#FFFFFF</color>
+</resources>
